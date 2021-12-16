@@ -1,3 +1,7 @@
+body {
+    font-family: nintendo;
+}
+
 li.item-nav {
     display: none;
 }
@@ -20,4 +24,13 @@ li.item-terminalPost {
 
 a.DiscussionListItem-author {
     display: none;
+}
+
+header.Hero.WelcomeHero {
+    display: none;
+}
+
+@font-face {
+    font-family: nintendo;
+    src: url(/guilhem/fonts/dogica.otf)
 }
