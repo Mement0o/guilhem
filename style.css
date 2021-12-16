@@ -34,3 +34,17 @@ header.Hero.WelcomeHero {
     font-family: nintendo;
     src: url(/guilhem/fonts/dogica.otf)
 }
+
+.container {}
+
+li.item-signUp {
+    display: none;
+}
+
+nav.DiscussionPage-nav {
+    display: none;
+}
+
+header.Post-header {
+    display: none;
+}
