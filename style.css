@@ -1,0 +1,23 @@
+li.item-nav {
+    display: none;
+}
+
+ul.IndexPage-toolbar-action {
+    display: none;
+}
+
+li.item-tags {
+    display: none;
+}
+
+span.DiscussionListItem-count {
+    display: none;
+}
+
+li.item-terminalPost {
+    display: none;
+}
+
+a.DiscussionListItem-author {
+    display: none;
+}
