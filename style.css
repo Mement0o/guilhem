@@ -1,50 +1,786 @@
+h1#titleNl {
+    display: none;
+}
+
+main.App-content {
+    border: none;
+}
+
+li.item-chatItem {
+    position: absolute;
+    left: 125px;
+    bottom: 167px;
+}
+
 body {
     font-family: nintendo;
+    font-size: 10px;
+    background: #041024;
 }
 
-li.item-nav {
+@font-face{font-family:nintendo;src:url(/fonts/dogica.otf)}
+
+
+
+li.TagTile {
+    background-color: white !important;
+    height: 84px !important;
+    border: 1px solid #000;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+a.TagTile-info {
+    overflow: hidden !important;
+    color: black !important;
+    padding: 0px;
+    transition: none;
+    position: absolute;
+    margin-bottom: -42px;
+}
+
+a.TagTile-lastPostedDiscussion {
+    color: black !important;
+}
+
+a.TagTile-lastPostedDiscussion {
+    border: none;
+}
+
+h3.TagTile-name {
+    font-size: 16px;
+    font-weight: normal;
+    margin-left: 18px;
+    margin-top: 11px;
+}
+
+
+
+input.FormChat {font-size: 15px;font-family: courier;color: black;}
+
+input.FormControl {
+    font-size: 13px;
+    font-family: monospace;
+}
+
+img.Header-logo {
+    width: 154px;
+    height: 67px;
+    max-height: 100px;
+}
+
+.Flarum-Blog-Composer .ProseMirror.FormControl.Composer-flexible.TextEditor-editor.Post-body {
+    min-height: 214px;
+}
+
+header.Hero.TagHero {
+    background: transparent;
+}
+
+button.Button.Button--primary.IndexPage-newDiscussion.hasIcon {
+    font-size: 9px;
+    padding: 9px;
+    margin: 0;
+    box-shadow: 3px 2px 0px 2px #324763;
+}
+
+span.UserOnline {
     display: none;
 }
 
-ul.IndexPage-toolbar-action {
+ul.PostUser-badges.badges {
     display: none;
 }
 
-li.item-tags {
+header.Hero.DiscussionHero {
+    background: #ffffff00;
+}
+
+article.CommentPost.Post--hidden {
+    /* display: none; */
+}
+
+.App-composer {
+    bottom: 29px !important;
+}
+
+button.Button.Button--primary.PollModal-SubmitButton.hasIcon {
+    text-transform: capitalize;
+    font-size: 13px;
+}
+
+.fc-event-time {
+    display: none !important;
+}
+
+
+.fc-daygrid-event-dot {
     display: none;
 }
 
-span.DiscussionListItem-count {
+header#header {
+    box-shadow: none;
+    background: #041024;
+    box-shadow: 0px 1px 7px 3px #041024;
+}
+
+
+li.item-allDiscussions a {
+    color: #ffce92 !important;
+}
+
+button[title~='accueil'] {
+    display: none !important;
+}
+
+
+button[title~='Popularité'] {
+    display: none !important;
+}
+
+
+
+.Hero .container {
+    padding-top: 40px;
+    padding-bottom: 11px;
+}
+
+.item-nav li[class^="item-tag"] {
+  display:none;
+}
+
+
+
+.App.BlogOverviewPage {
+    background: none;
+}
+
+.Badge.Badge--private {
+    /* display: none; */
+    background: none;
+    box-shadow: none;
+}
+
+.item-nav ul.Dropdown-menu.dropdown-menu {
+    flex-direction: column-reverse;
+    display: flex;
+}
+
+.fa-comment:before {
+    content: "\f03e";
+}
+
+.fa-map:before {
+    content: "\f075";
+}
+
+.FlarumBlog-Article-Categories {
     display: none;
 }
 
-li.item-terminalPost {
+h3.FlarumBlog-Article-Title {
+    margin-top: 10px;
+}
+
+.FlarumBlog-Article-Post {
+    margin-top: 35px;
+}
+
+.Flarum-Blog-Composer button.Button.Button--primary.hasIcon {
+    font-size: 10px;
+}
+
+.BlogCategories.BlogSideWidget {
     display: none;
 }
+
+.FlarumBlog-Article-PublishDate {
+    margin-bottom: 45px !important;
+}
+
+.FlarumBlog-ToolButtons {display: none;}
+
+.FlarumBlogItem {
+    margin-top: 39px;
+}
+
+.FlarumBlog-Article-Content-Edit-Dropdown {
+    z-index: 10000;
+}
+
+
+.TagCategory-stats.StatWidgetList {
+    display: none !important;
+}
+
+.SubCategory a.TagCategory-content {justify-content: unset !important;}
+
+.SubCategory a.TagCategory-content {
+}
+
+.TagCategory-alignStart {
+    max-width: 70% !important;
+}
+
+.SubCategory {}
+
+li.TagCategory.SubCategory {
+    width: fit-content;
+}
+.DiscussionListItem-content.Slidable-content {border: 2px #607083;border-style: dashed;border-radius: 24px;margin-bottom: 15px;margin-top: 15px;background: #102134eb;}
+
+.DiscussionListItem-content.Slidable-content.read {border: 2px #0a0f2f dashed !important;}
+
+li.item-discussion-language {
+    display: none;
+}
+
+
 
 a.DiscussionListItem-author {
+    /* display: none; */
+}
+
+.a.TagLabel.TagLabel--child span {
+    font-size: 6px !important;
+}
+
+ul.DiscussionListItem-info {
+    font-size: 9px;
+    margin-top: 11px;
+}
+
+.Afrux-NewsWidget .AfruxWidgets-Widget-content {
+    background: #ffde44;
+}
+
+.AfruxWidgets-Widget.hotDiscussions-widget .AfruxWidgets-Widget-content {
+    background: #3a1022;
+}
+
+.AfruxWidgets-Widget.Afrux-OnlineUsersWidget .AfruxWidgets-Widget-content {
+    background: #05081e54;
+}
+
+div#box {max-width: 222px;line-break: anywhere;}
+
+
+
+
+.container {
+    /* padding-left: 52px; */
+}
+
+.ButtonGroup.Dropdown.dropdown.DiscussionListItem-controls.itemCount12 {
+    margin-right: 19px;
+}
+
+.TagCategory-content-accueil, .TagCategory-content-events, .TagCategory-content-autour-de-cergy, .TagCategory-content-entraides, .TagCategory-content-organisation-r-flexions {
+    pointer-events: none;
+    box-shadow: -2px 2px 0px 2px #324763 !important;
+}
+
+a.TagCategory-content.TagCategory-content-blog {
     display: none;
 }
 
-header.Hero.WelcomeHero {
+.TagCategory.SubCategory .TagCategory-content {
+    box-shadow: none;
+    background: #ffffff00;
+}
+
+.LastDiscussion-userCardContainer {
+    display: none !important;
+}
+
+.Button--primary {
+    color: white;
+}
+
+.Afrux-NewsWidget {
+    color: white !important;
+}
+
+.Afrux-NewsWidget-line.Afrux-NewsWidget-line--current {
+    color: black;
+}
+
+.Afrux-NewsWidget-icon {
+    color: black;
+}
+
+a.TagCategory-content {
+    border-radius: 69px !important;
+}
+
+h3.DiscussionListItem-title {
+    color: white !important;
+    /* text-shadow: 1px 0 0 #14191f, -1px 0 0 #14191f, 0 2px 0 #14191f, 0 0px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f; */
+}
+
+body.touch a.TagCategory-content {
+    border-radius: 10px !important;
+}
+
+body.touch .TagCategory-alignEnd {
+    margin: 0;
+    display: none !important;
+}
+
+body.touch .container {
+    padding-left: 13px;
+}
+
+body.touch .TagCategory-alignStart {
+    max-width: 100% !important;
+}
+
+
+body.touch .DiscussionListItem-content.Slidable-content.read {
+    margin-left: 7px;
+    margin-right: 7px;
+    border-radius: 5px;
+}
+
+body.touch .IndexPage-toolbar {
+    margin-left: -7px;
+}
+
+body.touch ul.IndexPage-toolbar-action {
+    margin-top: -36px;
+}
+
+body.touch li.item-markAllAsRead {
     display: none;
 }
 
-@font-face {
-    font-family: nintendo;
-    src: url(/guilhem/fonts/dogica.otf)
+.dropdown-backdrop {}
+
+ul.Dropdown-menu.dropdown-menu.Dropdown-menu--top {
+    /* transition: none; */
 }
 
-.container {}
 
-li.item-signUp {
+.DiscussionListItem-author img.Avatar {
+    /* display: none; */
+}
+
+
+@font-face{font-family:monolisa;src:url(/fonts/MonoLisa-Regular.ttf)}
+@font-face{font-family:SpaceMono;src:url(/fonts/SpaceMono-Regular.ttf)}
+
+
+.Post-body {font-family: SpaceMono, monospace;}
+
+
+li.item-edited {
+    display: none !important;
+}
+
+.PostUser h3, .PostUser h3 a {
+    font-size: 11px;
+}
+
+img.Avatar.PostUser-avatar {
+    width: 48px;
+    height: 48px;
+}
+
+h2.DiscussionHero-title {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
+}
+
+a.TagLabel.TagLabel--child {}
+
+span.TagLabel-text {
+    font-size: 12px;
+    /* display: none; */
+}
+
+
+.DiscussionListItem {
+    border-radius: 20px;
+}
+
+.DiscussionListItem:hover {
+    background: none;
+}
+
+.DiscussionListItem-content.Slidable-content.read:hover {
+    /* background: #242c37; */
+}
+
+.DiscussionListItem-info li.item-tags {
     display: none;
 }
 
-nav.DiscussionPage-nav {
+::-webkit-scrollbar {
+    height: 12px;
+    width: 10px;
+    background: #ffffff05;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3a4451;
+    -webkit-border-radius: 1ex;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+:root {
+  scrollbar-color: #3a4451 #ffffff05 !important;
+  scrollbar-width: thin !important;
+}
+
+h2.Hero-title {
+    text-shadow: 2px 0 0 #14191f, -2px 0 0 #14191f, 0 2px 0 #14191f, 0 -2px 0 #14191f, 1px 1px #14191f, -1px -1px 0 #14191f, 1px -1px 0 #14191f, -1px 1px 0 #14191f;
+    color: white;
+}
+
+li.item-frontpage {
     display: none;
 }
 
-header.Post-header {
+
+
+.LastDiscussion-bottomRow {
+    word-break: break-word;
+}
+
+i.fa.fa-circle.fa-stack-2x.icon-background {
     display: none;
+}
+
+.TagCategory.SubCategory .TagCategory-content .TagCategory-icon .CategoryIcon {
+    color: white !important;
+} 
+
+article.Post.CommentPost.editing {
+    display: none;
+}
+
+
+
+.App-composer {
+    font-family: courier;
+}
+
+.App.BlogOverviewPage {
+    background: #14191f;
+}
+
+.FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
+    box-shadow: -3px 3px 0px 2px #324763;
+    background: #4d698e;
+    color: white;
+}
+
+.App.BlogOverviewPage {
+    background: #14191f !important;
+}
+
+.FlarumBlogOverview .BlogOverviewButtons .Button.hasIcon {
+    box-shadow: -3px 3px 0px 2px #324763;
+    background: #4d698e;
+    color: white;
+}
+
+.BlogFeatured h2 {
+    display: none;
+}
+
+p.FlarumBlog-reached-end {
+    display: none;
+}
+
+div#alerts {
+    display: none;
+}
+
+
+.touch button[aria-label="Afficher le menu déroulant de navigation"] {color: white;font-size: 10px;display: none;}
+
+
+.touch  .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount8 {
+    box-shadow: 3px 2px 0px 2px #324763;
+    background: #4d698e;
+    border-radius: 11px;
+    margin-top: 10px;
+}
+
+.touch  .darkenBackground {
+    background: #14191f;
+}
+
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
+    /* background: #272e38; */
+    /* box-shadow: -2px 2px 0px 2px #1e252e; */
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0 !important;
+}
+
+
+
+.touch .item-nav .Dropdown .Dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;overflow: hidden;background: none;top: 14px;}
+
+.touch :not(.item-sort) Dropdown-menu.dropdown-menu {visibility: visible;transform: none;flex-direction: row-reverse;position: absolute;box-shadow: none;height: 57px;width: auto !important;/* overflow: hidden; */background: none;top: 14px;display: flex;}
+
+.touch ul.Dropdown-menu.dropdown-menu span {
+    display: none;
+    /* color: #14191f; */
+}
+
+.touch li.item-nav {
+    width: 300px;
+    height: 50px;
+    position: fixed;
+    left: 50px;
+    top: 2px;
+    z-index: 10000;
+}
+
+.touch .ButtonGroup.Dropdown.dropdown.App-titleControl.Dropdown--select.itemCount12 {
+    width: 300px;
+    height: 50px;
+    position: absolute !important;
+    left: 100px;
+    margin-top: 0px !important;
+}
+
+.touch ul.Dropdown-menu.dropdown-menu li {
+    width: 57px;
+}
+
+
+.touch .scrolled .App-navigation {
+    box-shadow: none;
+}
+
+.touch .Dropdown-menu i.icon {
+    margin: 0 !important;
+}
+
+
+.touch .Dropdown-menu a.hasIcon {
+    margin: 0;
+    padding: 0 !important;
+    width: fit-content;
+}
+
+.touch li.Dropdown-separator {
+    display: none;
+}
+
+.touch .Dropdown .Dropdown-menu>.active>a {
+    background: none  !important;
+}
+
+.touch nav.IndexPage-nav.sideNav {
+    width: 300px;
+    height: 40px;
+    position: absolute;
+    top: 2px;
+    left: 50px;
+}
+
+.touch li[class^="item-tag"] {
+  display:none;
+}
+
+.touch button.Dropdown-toggle.Button {
+    /* display: none; */
+}
+
+.touch i.icon.fas.fa-check.Button-icon span.Button-label {
+    display: block !important;
+}
+
+.touch .itemCount12 button[aria-label="Afficher le menu déroulant"] {
+    display: none;
+}
+
+.touch .sideNav ul.Dropdown-menu.dropdown-menu {
+    visibility: visible;
+    transform: none;
+    flex-direction: row-reverse;
+    position: absolute;
+    box-shadow: none;
+    height: 57px;
+    width: auto !important;
+    overflow: hidden;
+    background: none;
+    top: 14px;
+    display: flex;
+}
+
+.touch .item-nav button.Dropdown-toggle.Button .Button-label {
+    display: none;
+}
+
+.touch i.icon.fas.fa-sort.Button-caret {
+    display: none;
+}
+
+.active i.icon.fas {
+    color: #3988ff;
+}
+
+div#chat {
+    font-family: monospace !important;
+    background: #02080f !important;
+    color: white !important;
+    font-size: 13px !important;
+}
+
+.toolbar a.name {
+    color: #56a9ff !important;
+}
+
+.ChatHeader {
+    cursor: move;
+    background-color: #370f30 !important;
+}
+
+.ChatList .header {
+    background-color: #370f30 !important;
+}
+
+.ChatList {
+    background-color: #000000 !important;
+}
+
+
+
+.panel-preview {
+    /* background-color: red !important; */
+}
+
+.ChatList:hover .panel-preview {
+    background: black !important;
+}
+
+.panel-add {
+    background-color: #02080f !important;
+}
+
+.ChatList .panel-add:before {
+    color: #2c2c2c !important;
+}
+
+.ChatList .panel-preview{
+    opacity: 0.5;
+}
+
+.ChatList .panel-preview:hover {
+    opacity: 1;
+}
+
+.ToggleButton.icon.icon-toggle {
+    display: none;
+}
+
+.ChatList .input-wrapper #chat-find {
+    background-color: black !important;
+    color: white !important;
+    cursor: text !important;
+}
+
+.ChatList .input-wrapper {
+    background-color: black !important;
+}
+
+.ChatList .panel-preview .avatar {
+    transform: scale(0.9);
+}
+
+.ChatList .panel-preview.active {
+    box-shadow: 0px 0px 0px 2px #ff4593;
+}
+
+.icon[data-title="Maximiser"] {
+    position: absolute !important;
+    right: 81px !important;
+    top: 0px  !important;
+    padding-left: 440px !important;
+}
+
+.icon[data-title="Minimiser"] {
+    position: absolute !important;
+    right: 61px  !important;
+}
+
+textarea#chat-input {
+    background-color: #151515 !important;
+    color: white !important;
+    padding-top: 6px !important;
+    padding-bottom: 6px !important;
+    margin-bottom: 10px !important;
+}
+
+.ChatInput .icon.send {
+    margin-top: 6px !important;
+}
+
+.ChatHeader i.fas.fa-cloud-sun {
+    margin-right: 15px !important;
+}
+
+li.item-following {
+    display: none;
+}
+
+.active a {
+}
+
+li.item-privateDiscussions a {
+    color: #fc5c5c !important;
+}
+
+li.item-events a {
+    color: #6eadfa !important;
+}
+
+li.item-blog a {
+    color: #43cdae !important;
+}
+
+li.item-categories a {
+    color: #af68c7 !important;
+}
+
+div#chat-panel {
+    width: 523px !important;
+}
+
+#chat i.fas.fa-cog {
+    color: #896382 !important;
+    margin-left: 15px;
+}
+
+
+
+.message-wrapper {
+    margin-top: 14px;
+    margin-right: 15px;
+}
+
+.ChatInput.input-wrapper {
+    padding-top: 22px;
+}
+
+.panel-preview.active {}
+
+.AfruxWidgets-Widget-content {
+    background: #0f1331;
+}
+
+span.Avatar.PostUser-avatar {
+    transform: scale(0.8);
+}
+
+
+
+.no-touch .Post-body {
+    font-size: 15px;
 }
