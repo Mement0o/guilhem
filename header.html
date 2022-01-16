@@ -1,0 +1,16 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+
+var number = "url(https://guilhem.club1.fr/media/background/" + Math.floor((Math.random() * 20) + 1) + ".jpg)"; 
+$("body").css("background", number);
+
+
+setInterval(function(){
+$("a").click(function(){
+ var number = "url(https://guilhem.club1.fr/media/background/" + Math.floor((Math.random() * 20) + 1) + ".jpg)"; 
+ $("body").css("background", number);
+
+ });
+}, 1000);
+
+</script>
